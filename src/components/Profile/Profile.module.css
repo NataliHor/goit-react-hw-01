@@ -1,0 +1,48 @@
+.userCard {
+  border: 3px solid #000000;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 150px;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+.userList {
+  list-style: none;
+  display: flex;
+  border-top: 3px solid #7e7e7e;
+}
+.userItem {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border-right: 3px solid #7e7e7e;
+}
+.userItem:last-child {
+  border-right: none;
+}
+.userPhoto {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #535252;
+  margin: 20px;
+}
+.userText {
+  font-weight: 700;
+  font-size: 22px;
+}
+.userGrayText {
+  color: #7e7e7e;
+}

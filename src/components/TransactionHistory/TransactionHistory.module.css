@@ -1,0 +1,23 @@
+.table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+.thead {
+  background-color: white;
+}
+.tableThead,
+.tableBody {
+  border: 1px solid black;
+  padding: 5px 15px;
+  width: 200px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #b5aeae74;
+}
+.tableThead {
+  background-color: #535252;
+  color: white;
+}
